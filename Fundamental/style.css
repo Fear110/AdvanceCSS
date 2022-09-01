@@ -1,5 +1,8 @@
 .name{ 
     border: 3px solid red;
+    margin: auto;
+    width: fit-content;
+    padding: 5px;;
 }
 /* border in buttom only */
 .name2{
@@ -14,14 +17,17 @@
 /* making perfect hover between parent and child */
 .hello{
     border: 5px solid blue;
-    height: 400px;
+    height: 500px;
     width: 400px;
+    margin: auto;
 }
 .helloins{
     border: 5px solid red;
-    height: 362px;
-    width: 380px;
+    height: 442px;
+    width: 240px;
     /* 18px is the default text size of html */
     margin-top: 10px;
-    margin-left: 10px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 20px;
 }
