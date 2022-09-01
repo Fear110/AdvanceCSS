@@ -1,0 +1,27 @@
+.name{ 
+    border: 3px solid red;
+}
+/* border in buttom only */
+.name2{
+    margin-top: 10px;
+    border-bottom:2px solid blue ;
+}
+/* margin in top only */
+.name3{
+    margin-top: 10px;
+    border-top: 2px solid green;
+}
+/* making perfect hover between parent and child */
+.hello{
+    border: 5px solid blue;
+    height: 400px;
+    width: 400px;
+}
+.helloins{
+    border: 5px solid red;
+    height: 362px;
+    width: 380px;
+    /* 18px is the default text size of html */
+    margin-top: 10px;
+    margin-left: 10px;
+}
