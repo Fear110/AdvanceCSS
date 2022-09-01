@@ -1,33 +1,53 @@
-.name{ 
-    border: 3px solid red;
-    margin: auto;
-    width: fit-content;
-    padding: 5px;;
+.name {
+  border: 3px solid red;
+  margin: auto;
+  width: fit-content;
+  padding: 5px;
 }
 /* border in buttom only */
-.name2{
-    margin-top: 10px;
-    border-bottom:2px solid blue ;
+.name2 {
+  margin-top: 10px;
+  border-bottom: 2px solid blue;
 }
 /* margin in top only */
-.name3{
-    margin-top: 10px;
-    border-top: 2px solid green;
+.name3 {
+  margin-top: 10px;
+  border-top: 2px solid green;
 }
 /* making perfect hover between parent and child */
-.hello{
-    border: 5px solid blue;
-    height: 500px;
-    width: 400px;
-    margin: auto;
+.hello {
+  border: 5px solid blue;
+  height: 1500px;
+  width: 800px;
+  margin: auto;
+  color: aliceblue;
+  background-image: url("imgdoc.jpg");
+  background-position: center;
+  background-attachment: fixed;
 }
-.helloins{
-    border: 5px solid red;
-    height: 442px;
-    width: 240px;
-    /* 18px is the default text size of html */
+.helloins {
+  border: 5px solid red;
+  height: 742px;
+  width: 640px;
+  /* 18px is the default text size of html */
+  margin-top: 10px;
+  padding-left: 100px;
+  padding-right: 50px;
+  padding-top: 20px;
+  background-image: url("imgdoc.jpg");
+  background-position: center; /*make the picture come to the centre*/
+  background-size: cover; /*covers the whole div with the max picture*/
+  background-attachment: fixed; /* make the dic move but image remains at the same position */
+}
+.main{
+    border: 5px black solid;
+    border-radius: 20px;
+    width: 490px;
+    height: 280px;
     margin-top: 10px;
-    padding-left: 100px;
-    padding-right: 50px;
-    padding-top: 20px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /* RGB background */
+    background-color: RGB(162, 184, 255,1);
 }
